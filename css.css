@@ -1,0 +1,54 @@
+@font-face {
+  font-family: minecraft8;
+  src: url(Minecraft_8.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "minecraft8";
+  color: white;
+  background-image: url("dirt.webp");
+  background-blend-mode: multiply;
+  background-color: rgba(0,0,0,0.75)
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  margin: 0%;
+  height: 40px;
+  width: 405px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background: url("btn1.png") no-repeat;
+  font-family: minecraft8;
+  line-height: 26px;
+  /* padding-top: 6px; */
+  font-size: large;
+}
+
+button:hover {
+  background: url("btn2.png") no-repeat;
+}
+
+.text {
+  text-shadow: 2.5px 2.5px 0px #3f3f3f;
+}
+
+.paragraph {
+  text-align: center;
+  text-shadow: 2.5px 2.5px 0px #3f3f3f;
+}
+
+h1 {
+  margin-left: 15px;
+  text-shadow: 2.5px 2.5px 0px #3f3f3f;
+}

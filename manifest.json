@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Online Play Isn't Rated",
+    "version": "0.1",
+    "description": "fuck you it's MINECRAFT",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        "online-play-isnt-rated.html"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "onlineplayisntrated@thiswebsitedoesnotexist.thiswebsitedoesnotexist"
+        }
+    }
+}
