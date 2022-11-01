@@ -9,3 +9,6 @@ i was trying something but it didn't work
 i don't know how to make this be an actual firefox extension but the code exists
 
 gimme some fuckin stars
+
+
+# oh yeah, i made it in jsfuck (by hand (trust me (real)))
