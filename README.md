@@ -1,14 +1,5 @@
 # hi
 
-like half of the files in here are unused
+firefox says i have to make an actual readme so here it is
 
-cry about it
-
-i was trying something but it didn't work
-
-i don't know how to make this be an actual firefox extension but the code exists
-
-gimme some fuckin stars
-
-
-# oh yeah, i made it in jsfuck (by hand (trust me (real)))
+all this does is make it so that when you try to go to reddit or twitter, it shows the error message that you get in minecraft when you try to go to the multiplayer screen on a fresh instance
