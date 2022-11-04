@@ -1,10 +1,9 @@
 @font-face {
   font-family: minecraft8;
-  src: url(Minecraft_8.otf);
+  src: url("Minecraft_8.otf");
   font-weight: 400;
   font-style: normal;
 }
-
 
 body {
   font-family: "minecraft8";
@@ -30,8 +29,7 @@ button {
   cursor: pointer;
   background: url("btn1.png") no-repeat;
   font-family: minecraft8;
-  line-height: 26px;
-  /* padding-top: 6px; */
+  line-height: 1.2;
   font-size: large;
 }
 
@@ -45,10 +43,12 @@ button:hover {
 
 .paragraph {
   text-align: center;
+  line-height: 2;
+  font-size: large;
   text-shadow: 2.5px 2.5px 0px #3f3f3f;
 }
 
 h1 {
-  margin-left: 15px;
+  margin: 50px;
   text-shadow: 2.5px 2.5px 0px #3f3f3f;
 }
