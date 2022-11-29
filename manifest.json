@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "fuck you it's MINECRAFT",
     "icons": {
-        "48": "icons/border-48.png"
+        "48": "icon.png"
     },
     "permissions": ["storage"],
     "content_scripts": [
